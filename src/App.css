@@ -1,9 +1,10 @@
 .animals-container {
-  display:flex;
+  display: flex;
   justify-content: space-evenly;
+  padding-top: 60px;
 }
 
-.animal-card{
+.animal-card {
   width: 200px;
   text-align: center;
   border: 2px dashed pink;
@@ -11,22 +12,29 @@
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-
 }
 
-/* .animal-card img{
-  width:100%;
-}
-
-.animal-image {
-  height: 150px;
-  overflow: hidden;
-} */
-
-.animal-card img{
+.animal-card img {
   height: 100%;
 }
 
 .animal-image {
   height: 150px;
+}
+
+.cats-and-dogs {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
+}
+
+#animals {
+  align-items: center;
+  width: 100px;
+  padding: 4px;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  justify-content: center;
 }
